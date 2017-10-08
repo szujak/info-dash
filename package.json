@@ -1,0 +1,47 @@
+{
+  "name": "info-dash",
+  "version": "1.0.0",
+  "description": "Core of info dashboard",
+  "main": "src/index.js",
+  "dependencies": {
+    "dotenv": "^4.0.0",
+    "express": "^4.16.1",
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0",
+    "socket.io": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-jest": "^21.2.0",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "eslint": "^4.8.0",
+    "eslint-config-standard": "^10.2.1",
+    "eslint-plugin-import": "^2.7.0",
+    "eslint-plugin-node": "^5.2.0",
+    "eslint-plugin-promise": "^3.5.0",
+    "eslint-plugin-standard": "^3.0.1",
+    "jest": "^21.2.1"
+  },
+  "scripts": {
+    "test": "jest --notify --config=jest.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/szujak/info-dash.git"
+  },
+  "keywords": [
+    "info",
+    "dashboard",
+    "panel",
+    "chart",
+    "infopanel"
+  ],
+  "author": "Adam Szajuk <kontakt@adamszajuk.pl>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/szujak/info-dash/issues"
+  },
+  "homepage": "https://github.com/szujak/info-dash#readme"
+}
